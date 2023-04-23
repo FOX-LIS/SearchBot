@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    username: root
+    password: MySqL_pswrd7
+    url: jdbc:mysql://localhost:3306/search_engine?useSSL=false&requireSSL=false&allowPublicKeyRetrieval=true
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+indexing-settings:
+  sites:
+      - url: https://ipfran.ru
+        name: ИПФ РАН
+      - url: http://www.playback.ru
+        name: PlayBack.ru
+  userData:
+    userAgent: SuperSearchBot
+    referrer: https://www.google.com

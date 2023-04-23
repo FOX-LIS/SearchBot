@@ -1,0 +1,31 @@
+2023-04-23 19:44:24.918 [main] INFO  searchengine.Application - Starting Application using Java 17.0.6 on DESKTOP-Q4GL9T6 with PID 3044 (E:\SkillBox\JAVA\ПРАКТИЧЕСКИЕ РАБОТЫ\IdeaProjects\java_basics\FinalProject\SearchBot\target\classes started by Владимир in E:\SkillBox\JAVA\ПРАКТИЧЕСКИЕ РАБОТЫ\IdeaProjects\java_basics\FinalProject\SearchBot)
+2023-04-23 19:44:24.948 [main] INFO  searchengine.Application - No active profile set, falling back to 1 default profile: "default"
+2023-04-23 19:44:26.521 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-23 19:44:26.708 [main] INFO  org.springframework.data.repository.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 168 ms. Found 5 JPA repository interfaces.
+2023-04-23 19:44:28.149 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-23 19:44:28.213 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-23 19:44:28.215 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-23 19:44:28.215 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2023-04-23 19:44:28.523 [main] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-23 19:44:28.523 [main] INFO  org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3420 ms
+2023-04-23 19:44:28.983 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-23 19:44:29.111 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.10.Final
+2023-04-23 19:44:29.577 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-23 19:44:29.982 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-04-23 19:44:30.355 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-04-23 19:44:30.401 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-23 19:44:32.221 [main] INFO  org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-23 19:44:32.244 [main] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-23 19:44:35.379 [main] WARN  org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-23 19:44:35.942 [main] INFO  org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2023-04-23 19:44:36.411 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-23 19:44:36.460 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-23 19:44:36.477 [main] INFO  searchengine.Application - Started Application in 12.458 seconds (JVM running for 14.661)
+2023-04-23 19:45:45.736 [http-nio-8080-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-23 19:45:45.737 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-23 19:45:45.738 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-04-23 19:45:54.594 [http-nio-8080-exec-8] INFO  searchengine.data.Searcher - Сайт "ИПФ РАН". Поиск по запросу: " мощное излучение"
+2023-04-23 19:45:58.159 [http-nio-8080-exec-8] INFO  searchengine.data.Searcher - Сайт "ИПФ РАН". Поиск завершён!
+2023-04-23 19:46:05.241 [SpringApplicationShutdownHook] INFO  org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-23 19:46:05.244 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-04-23 19:46:05.262 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
