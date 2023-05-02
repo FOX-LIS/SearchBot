@@ -19,6 +19,5 @@ indexing-settings:
         name: ИПФ РАН
       - url: http://www.playback.ru
         name: PlayBack.ru
-  userData:
-    userAgent: SuperSearchBot
-    referrer: https://www.google.com
+  userAgent: SuperSearchBot
+  referrer: https://www.google.com
